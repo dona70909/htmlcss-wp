@@ -126,6 +126,26 @@ h4{
     filter: brightness(76%);
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    left: 54px;
+    bottom: 121px;
+    color:white;
+}
+
+.text-over-big{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.text-over-small{
+
+}
+
 #logo-header{
     width: 146px;
     height: 60px;
@@ -137,4 +157,6 @@ h4{
 #title-header{
     font-size: 30px;
 }
+
+
 
