@@ -27,7 +27,7 @@
 }
 
 .main-top{
-   height: 300px;
+   height: 350px;
    background-color: rgba(225,214,122,255);
    margin-bottom: 20px;
 }
@@ -76,14 +76,6 @@
 }
 
 /* CONTENUTI LAYOUT  */
-#logo-header{
-    /* display: block; */
-    width: 146px;
-    height: 60px;
-    padding-right: 10px;
-    border-right: 1px solid black;
-    margin-bottom: 5px;
-}
 
 ul{
     list-style: none;
@@ -96,3 +88,19 @@ li{
     text-transform: uppercase;
     font-size: 13px;
 }
+
+#main-image{
+    width:100%;
+    height:350px;
+    border-radius: 25px;
+}
+
+#logo-header{
+    /* display: block; */
+    width: 146px;
+    height: 60px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+    margin-bottom: 5px;
+}
+
