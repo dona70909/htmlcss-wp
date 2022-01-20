@@ -1,0 +1,76 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* class clearfix per utilizzare float */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* dimensioni di ogni sezione header|top-main|bottom-main|footer */
+.size-box{
+    width: 80%;
+    margin:0 auto;
+}
+
+/* header proprietà specifiche */
+.container-header{
+    height: 100px; 
+    background-color: rgba(229,121,230,255);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-top{
+   height: 300px;
+   background-color: rgba(225,214,122,255);
+   margin-bottom: 20px;
+}
+
+.main-bottom{
+   background-color: rgba(9,132,243,255);
+   width: 80%;
+   margin: 0 auto 10px;
+}
+
+/* footer proprietà specifiche */
+.container-footer{
+   height: 50px;
+   background-color: rgba(136,1,254,255);
+   margin-bottom: 20px ;
+}
+
+/*  --- sections all'interno del bottom main --- */
+
+/* proprietà delle boxes centrali */
+.column{
+    height: 400px;
+    background-color: rgba(171,207,231,255);
+    margin-bottom: 15px;
+    float: left;
+}
+
+/* boxes laterali  */
+.small-clm{
+    width: 25%;
+}
+
+/* box centrale */
+.big-clm{
+    width: calc(50% - 20px);
+    margin: 0px 10px 15px 10px;
+}
+
+/* proprietà "header" del bottom main */
+.header-main-bottom{
+    height: 60px;
+    width:100%;
+    float: left;
+    background-color: rgba(171,207,231,255);
+    margin-bottom: 25px;
+}
