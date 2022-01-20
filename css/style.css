@@ -54,12 +54,12 @@
 
 /* colonne laterali  */
 .small-clm{
-    width: 25%;
+    width: 19%;
 }
 
 /* colonna centrale */
 .big-clm{
-    width: calc(50% - 20px);
+    width: calc(62% - 20px);
     margin: 0px 10px 15px 10px;
 }
 
@@ -116,8 +116,7 @@ h4{
 /* -----------IMMAGINI DELLE 3 COLONNE----------- */
 .img-aside{
     width:100%;
-    height:252.667px;
-    border-radius: 15px;
+    height: 192.021px;
     filter: brightness(79%);
     border-radius: 15px;
     margin-bottom: 15px;
@@ -125,8 +124,7 @@ h4{
 
 .img-center{
     width:100%;
-    height:252.667px;
-    border-radius: 15px;
+    height: 192.021px;
     filter: brightness(79%);
     border-radius: 15px;
     margin-bottom:15px;
