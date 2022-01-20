@@ -89,10 +89,13 @@ li{
     font-size: 13px;
 }
 
+.font-grey{
+    color: rgb(148, 147, 147);
+}
+
 #main-image{
     width:100%;
     height:350px;
-    border-radius: 25px;
 }
 
 #logo-header{
