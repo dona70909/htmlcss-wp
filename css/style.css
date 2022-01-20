@@ -3,6 +3,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+
 }
 
 /* class clearfix per utilizzare float */
@@ -49,7 +51,6 @@
 
 /* proprietà delle boxes centrali */
 .column{
-    height: 400px;
     background-color: rgba(171,207,231,255);
     margin-bottom: 15px;
     float: left;
@@ -68,7 +69,6 @@
 
 /* proprietà "header" del bottom main */
 .header-main-bottom{
-    height: 60px;
     width:100%;
     float: left;
     background-color: rgba(171,207,231,255);
@@ -90,18 +90,18 @@ li{
 }
 
 .font-grey{
-    color: rgb(148, 147, 147);
+    color: #ebebeb;
 }
 
 .img-aside{
     width:100%;
-    height:50%;
+    /* height:50%; */
     border-radius: 15px;
 }
 
 .img-center{
     width:100%;
-    height:50%;
+    /* height:50%; */
     border-radius: 15px;
 }
 
@@ -120,7 +120,6 @@ li{
 }
 
 #logo-header{
-    /* display: block; */
     width: 146px;
     height: 60px;
     padding-right: 10px;
