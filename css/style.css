@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    
 
 }
 
@@ -27,8 +28,8 @@
     margin-bottom: 40px;
 }
 
+/* main diviso in top e bottom */
 .main-top{
-  /*  background-color: rgba(225,214,122,255); */
    margin-bottom: 20px;
 }
 
@@ -51,12 +52,12 @@
     float: left;
 }
 
-/* boxes laterali  */
+/* colonne laterali  */
 .small-clm{
     width: 25%;
 }
 
-/* box centrale */
+/* colonna centrale */
 .big-clm{
     width: calc(50% - 20px);
     margin: 0px 10px 15px 10px;
@@ -66,8 +67,6 @@
 .header-main-bottom{
     width:100%;
     float: left;
-    /* background-color: rgba(171,207,231,255); */
-    margin-bottom: 25px;
 }
 
 /* -------------------------   CONTENT LAYOUT   -------------------------------------  */
