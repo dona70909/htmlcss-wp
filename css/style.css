@@ -105,6 +105,15 @@ li{
     border-radius: 15px;
 }
 
+.footer-text{
+    text-align: center;
+}
+
+#red-heart{
+    color: red;
+    font-size: 20px;
+}
+
 #main-image{
     width:100%;
     height:350px;
