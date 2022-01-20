@@ -70,8 +70,9 @@
     margin-bottom: 25px;
 }
 
-/* ------------------    CONTENT LAYOUT   -------------------------------------  */
+/* -------------------------   CONTENT LAYOUT   -------------------------------------  */
 
+/* ----------- HEADER LIST-------------*/
 ul{
     list-style: none;
 }
@@ -82,17 +83,38 @@ li{
     text-transform: uppercase;
     font-size: 13px;
 }
+/* ********************************************** */
 
-/* titoli delle 3 colonne */
+/* _____FONT TITOLI DELLE 3 COLONNE________ */
 h4{
     font-weight: 300;
     margin-bottom: 15px;
 }
 
+/*----------- MAIN IMAGE -------------- */
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    left: 54px;
+    bottom: 121px;
+    color:white;
+}
+
+.text-over-big{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+/* ___________TEXT-GREY__________*/
 .font-grey{
     color:rgb(145, 144, 144);
 }
 
+/* -----------IMMAGINI DELLE 3 COLONNE----------- */
 .img-aside{
     width:100%;
     height:252.667px;
@@ -110,41 +132,26 @@ h4{
     border-radius: 15px;
     margin-bottom:15px;
 }
+/* *************************** */
 
+/* --------------FOOTER----------- */
 .footer-text{
     text-align: center;
 }
+/* **************************** */
 
 #red-heart{
     color: red;
     font-size: 20px;
 }
 
+/* ID IMMAGINE CENTARLE */
 #main-image{
     width:100%;
     border-radius: 15px;
     filter: brightness(76%);
 }
 
-.relative{
-    position: relative;
-}
-
-.absolute{
-    position: absolute;
-    left: 54px;
-    bottom: 121px;
-    color:white;
-}
-
-.text-over-big{
-    font-size: 30px;
-    font-weight: 300;
-}
-
-.text-over-small{
-
-}
 
 #logo-header{
     width: 146px;
@@ -154,6 +161,7 @@ h4{
     margin-bottom: 20px;
 }
 
+/* _____TITLE HEADER DEL MAIN BOTTOM______ */
 #title-header{
     font-size: 30px;
 }
